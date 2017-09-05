@@ -1,0 +1,101 @@
+Ranking	Smasher	Previous rank	Movement	Character(s)	Score
+1	Sweden Armada	1	0	PeachHeadSSBM.pngFoxHeadSSBM.png	10.000
+2	USA Hungrybox	2	0	JigglypuffHeadSSBM.png	9.892
+3	USA Mango	4	▲ 1	FoxHeadSSBM.pngFalcoHeadSSBM.pngMarthHeadSSBM.pngCaptainFalconHeadSSBM.png	9.781
+4	USA Mew2King	5	▲ 1	MarthHeadSSBM.pngSheikHeadSSBM.pngFoxHeadSSBM.pngPeachHeadSSBM.png	9.643
+5	Sweden Leffen	3	▼ 2	FoxHeadSSBM.png	9.576
+6	USA Plup	7	▲ 1	SheikHeadSSBM.pngSamusHeadSSBM.pngFoxHeadSSBM.png	9.379
+7	USA SFAT	13	▲ 6	FoxHeadSSBM.png	9.219
+8	USA Westballz	8	0	FalcoHeadSSBM.pngFoxHeadSSBM.pngCaptainFalconHeadSSBM.png	9.031
+9	USA Axe	9	0	PikachuHeadSSBM.pngFalcoHeadSSBM.pngYoungLinkHeadSSBM.pngMarthHeadSSBM.png	8.969
+10	USA Shroomed	10	0	SheikHeadSSBM.pngMarthHeadSSBM.png	8.917
+11	USA Swedish Delight	31	▲ 20	SheikHeadSSBM.pngPeachHeadSSBM.png	8.878
+12	USA Wizzrobe	23	▲ 11	CaptainFalconHeadSSBM.png	8.820
+13	Germany Ice	17	▲ 4	FoxHeadSSBM.png	8.812
+14	USA PewPewU	14	0	MarthHeadSSBM.pngFoxHeadSSBM.png	8.607
+15	USA Duck	22	▲ 7	SamusHeadSSBM.png	8.586
+16	USA S2J	16	0	CaptainFalconHeadSSBM.png	8.585
+17	USA Nintendude	25	▲ 8	IceClimbersHeadSSBM.png	8.340
+18	Canada n0ne	58	▲ 40	CaptainFalconHeadSSBM.pngGanondorfHeadSSBM.png	8.299
+19	USA Lucky	12	▼ 7	FoxHeadSSBM.png	8.296
+20	USA Silent Wolf	11	▼ 9	FoxHeadSSBM.png	8.261
+21	USA The Moon	28	▲ 7	MarthHeadSSBM.png	8.211
+22	USA ChuDat	35	▲ 13	IceClimbersHeadSSBM.png	8.063
+23	USA Druggedfox	18	▼ 5	FoxHeadSSBM.pngFalcoHeadSSBM.png	8.044
+24	UK Professor Pro	34	▲ 10	FoxHeadSSBM.png	8.036
+25	USA Colbol	21	▼ 4	FoxHeadSSBM.pngMarthHeadSSBM.png	7.920
+26	USA MacD	15	▼ 11	PeachHeadSSBM.png	7.822
+27	USA dizzkidboogie	84	▲ 57	IceClimbersHeadSSBM.png	7.734
+28	USA MikeHaze	40	▲ 12	FoxHeadSSBM.png	7.720
+29	Canada KirbyKaze	27	▼ 2	SheikHeadSSBM.png	7.668
+30	USA Wobbles	32	▲ 2	IceClimbersHeadSSBM.png	7.664
+31	USA Zhu	29	▼ 2	FalcoHeadSSBM.png	7.650
+32	Japan aMSa	24	▼ 8	YoshiHeadSSBM.pngFalcoHeadSSBM.png	7.482
+33	USA Laudandus	59	▲ 26	SheikHeadSSBM.png	7.473
+34	USA KJH	46	▲ 12	FoxHeadSSBM.png	7.363
+35	USA Gahtzu	45	▲ 10	CaptainFalconHeadSSBM.png	7.164
+36	USA Chillin	54	▲ 18	FoxHeadSSBM.png	7.124
+37	Mexico Javi	26	▼ 11	FoxHeadSSBM.png	6.914
+38	USA HugS	20	▼ 18	SamusHeadSSBM.png	6.874
+39	USA Bladewise	39	0	PeachHeadSSBM.png	6.850
+40	USA Abate	33	▼ 7	LuigiHeadSSBM.pngFalcoHeadSSBM.png	6.804
+41	USA Gravy	62	▲ 21	CaptainFalconHeadSSBM.png	6.788
+42	USA Prince Abu	55	▲ 13	JigglypuffHeadSSBM.png	6.699
+43	USA Santiago	42	▼ 1	FoxHeadSSBM.pngFalcoHeadSSBM.pngSheikHeadSSBM.png	6.617
+44	Spain Trif	—	—	PeachHeadSSBM.png	6.611
+45	USA Captain Faceroll	—	—	SheikHeadSSBM.png	6.607
+46	USA CDK	72	▲ 26	FoxHeadSSBM.pngSheikHeadSSBM.png	6.586
+47	USA InfiniteNumbers	—	—	IceClimbersHeadSSBM.png	6.560
+48	Canada Ryan Ford	51	▲ 3	FoxHeadSSBM.png	6.484
+49	USA Crush	96	▲ 47	FoxHeadSSBM.png	6.419
+50	USA Mafia	91	▲ 41	PeachHeadSSBM.png	6.397
+51	USA Slox	69	▲ 18	FoxHeadSSBM.pngSheikHeadSSBM.png	6.385
+52	Japan Rudolph	88	▲ 36	MarthHeadSSBM.pngFoxHeadSSBM.png	6.367
+53	Spain Overtriforce	47	▼ 6	SheikHeadSSBM.png	6.321
+54	USA lloD	78	▲ 24	PeachHeadSSBM.png	6.199
+55	USA Kels	50	▼ 5	FoxHeadSSBM.pngSheikHeadSSBM.png	6.147
+56	Mexico Eddy Mexico	36	▼ 20	LuigiHeadSSBM.png	6.066
+57	USA Azusa	89	▲ 32	PeachHeadSSBM.png	6.051
+58	Netherlands Amsah	53	▼ 5	SheikHeadSSBM.png	6.003
+59	USA Redd	70	▲ 11	FoxHeadSSBM.pngMarthHeadSSBM.png	5.984
+60	USA Cactuar	37	▼ 23	FoxHeadSSBM.pngMarthHeadSSBM.png	5.924
+61	Netherlands Zgetto	73	▲ 12	FoxHeadSSBM.png	5.902
+62	USA SmashG0D	—	—	MarthHeadSSBM.png	5.861
+63	Sweden Android	48	▼ 15	SheikHeadSSBM.png	5.854
+64	USA Captain Smuckers	99	▲ 35	CaptainFalconHeadSSBM.png	5.838
+65	USA DJ Nintendo	41	▼ 24	FoxHeadSSBM.pngPikachuHeadSSBM.png	5.806
+66	USA Zain	—	—	MarthHeadSSBM.png	5.717
+67	USA Syrox	—	—	FoxHeadSSBM.png	5.591
+68	USA ESAM	81	▲ 13	SamusHeadSSBM.pngFoxHeadSSBM.png	5.588
+69	USA Squid	—	—	FalcoHeadSSBM.png	5.571
+70	Canada Kage	44	▼ 26	GanondorfHeadSSBM.pngFoxHeadSSBM.pngCaptainFalconHeadSSBM.png	5.566
+71	USA Kalamazhu	57	▼ 14	PeachHeadSSBM.png	5.4734
+72	USA Darkatma	56	▼ 16	SheikHeadSSBM.pngPeachHeadSSBM.png	5.430
+73	USA Lovage	—	—	FoxHeadSSBM.png	5.261
+74	USA Tai	90	▲ 16	MarthHeadSSBM.png	5.240
+75	USA Drephen	—	—	SheikHeadSSBM.png	5.2178
+76	USA Ka-master	—	—	LuigiHeadSSBM.png	5.139
+77	Canada Trulliam	—	—	FalcoHeadSSBM.png	5.109
+78	USA Frootloop	49	▼ 29	FalcoHeadSSBM.pngSheikHeadSSBM.pngFoxHeadSSBM.png	5.107
+79	USA Alex19	67	▼ 12	FoxHeadSSBM.png	5.104
+80	USA HomeMadeWaffles	64	▼ 16	FoxHeadSSBM.pngFalcoHeadSSBM.png	5.066
+81	USA Milkman	—	—	FoxHeadSSBM.png	5.021
+82	USA Arc	87	▲ 5	MarthHeadSSBM.png	5.010
+83	USA Reno	74	▼ 9	SheikHeadSSBM.pngFoxHeadSSBM.png	4.993
+84	USA Tafokints	80	▼ 4	SheikHeadSSBM.png	4.886
+85	UK Fuzzyness	—	—	FoxHeadSSBM.pngCaptainFalconHeadSSBM.png	4.864
+86	USA Kira	60	▼ 26	FoxHeadSSBM.png	4.771
+87	USA Ken	52	▼ 35	MarthHeadSSBM.png	4.717
+88	USA Mojo	—	—	FoxHeadSSBM.png	4.661
+89	USA Medz	—	—	FoxHeadSSBM.pngMarthHeadSSBM.png	4.632
+90	USA Zanguzen	68	▼ 22	FalcoHeadSSBM.png	4.607
+91	USA Phil	92	▲ 1	FoxHeadSSBM.png	4.547
+92	USA Darrell	83	▼ 9	SamusHeadSSBM.png	4.518
+93	USA NMW	—	—	CaptainFalconHeadSSBM.png	4.505
+94	USA Porkchops	93	▼ 1	FalcoHeadSSBM.png	4.365
+95	USA JFlex	—	—	SheikHeadSSBM.pngFoxHeadSSBM.png	4.354
+96	UK Vanity Angel	—	—	PeachHeadSSBM.png	4.331
+97	USA $mike	85	▼ 12	CaptainFalconHeadSSBM.png	4.326
+98	Canada Nightmare	—	—	MarthHeadSSBM.png	4.314
+99	USA 4%	—	—	JigglypuffHeadSSBM.png	4.299
+100	USA drunksloth	—	—	IceClimbersHeadSSBM.png	4.261

@@ -4,8 +4,12 @@ from collections import defaultdict
 from pprint import pprint
 
 
+def parse_matchups_by_rankings(f_in, f_out, p1id, p2id, matchup_stats):
+	pass
+
+
 # parse matchup stats from html
-def parse_html(f_in, f_out, p1id, p2id, matchup_stats):
+def parse_matchups(f_in, f_out, p1id, p2id, matchup_stats):
 	soup = BeautifulSoup(f_in, 'html.parser')
 
 	for match_up in soup.find_all('tr')[2:]:
@@ -18,7 +22,11 @@ def parse_html(f_in, f_out, p1id, p2id, matchup_stats):
 	        matchup_stats[(char2, char1)] += int(char2wins)
 
 
-if __name__ == '__main__':
+def make_matchups_by_rankings():
+	
+
+
+def make_matchups():
 	matchups = pickle.load(open('pickles/matchups.p', 'rb'))
 	matchup_stats = defaultdict(int)
 
@@ -28,10 +36,12 @@ if __name__ == '__main__':
 	for p1id, p2id in matchups:
 		html_file_name = 'html_data/%svs%s.html' % (p1id, p2id)
 		with open(html_file_name, 'r') as f_in:
-			parse_html(f_in, f_out, p1id, p2id, matchup_stats)
+			parse_matchups(f_in, f_out, p1id, p2id, matchup_stats)
 		i += 1
 		print('%s/%s complete' % (i, len(matchups)))
 
 	f_out.close()
 	print(len(matchup_stats))
 	pickle.dump(matchup_stats, open('pickles/matchup_stats.p', 'wb'))
+
+

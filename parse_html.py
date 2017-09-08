@@ -23,7 +23,7 @@ def parse_matchups(f_in, f_out, p1id, p2id, matchup_stats):
 
 
 def make_matchups_by_rankings():
-	
+	pass
 
 
 def make_matchups():

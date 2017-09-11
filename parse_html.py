@@ -4,10 +4,6 @@ from collections import defaultdict
 from pprint import pprint
 
 
-def parse_matchups_by_rankings(f_in, f_out, p1id, p2id, matchup_stats):
-	pass
-
-
 # parse matchup stats from html
 def parse_matchups(f_in, f_out, p1id, p2id, matchup_stats):
 	soup = BeautifulSoup(f_in, 'html.parser')
@@ -20,10 +16,6 @@ def parse_matchups(f_in, f_out, p1id, p2id, matchup_stats):
 	    if char1 != char2:
 	        matchup_stats[(char1, char2)] += int(char1wins)
 	        matchup_stats[(char2, char1)] += int(char2wins)
-
-
-def make_matchups_by_rankings():
-	pass
 
 
 def make_matchups():
@@ -43,5 +35,3 @@ def make_matchups():
 	f_out.close()
 	print(len(matchup_stats))
 	pickle.dump(matchup_stats, open('pickles/matchup_stats.p', 'wb'))
-
-

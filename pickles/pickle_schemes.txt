@@ -1,0 +1,14 @@
+player_dict.p
+	{id (string) : tag (string)}
+
+rank_to_tag.p
+	{rank (int) : tag (string)}
+
+tag_to_rank.p
+	{tag (string) : rank (int)}
+
+matchup_stats.p
+	{(char1 (string), char2 (string)) : wins}
+	wins is char1 over char2
+	(char1, char2) and (char2, char1) are both valid keys
+	No dittos, ie (char1, char1) not valid key

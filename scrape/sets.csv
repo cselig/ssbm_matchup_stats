@@ -1,0 +1,42 @@
+set_id,date,tourney,set,p1,p2,winner
+1,2009-07-12,Genesis 1,Grand Finals Set 1,Mango (3),Armada (2),Mango
+2,2009-07-12,Genesis 1,Grand Finals Set 2,Mango (3),Armada (0),Mango
+3,2009-07-12,Genesis 1,Winner's Finals,Mango (2),Armada (3),Armada
+4,2011-07-17,Genesis 2,Grand Finals Set 1,Mango (2),Armada (3),Armada
+5,2012-01-08,Apex 2012,Winner's Finals,Mango (0),Armada (3),Armada
+6,2013-07-14,Evo 2013,Loser's Semis,Mango (2),Armada (0),Mango
+7,2014-06-08,Super SWEET,Winner's Finals,Mango (2),Armada (3),Armada
+8,2014-06-22,MLG Anaheim,Grand Finals Set 1,Mango (3),Armada (2),Mango
+9,2014-06-22,MLG Anaheim,Pools,Mango (2),Armada (3),Armada
+10,2014-06-22,MLG Anaheim,Winner's Finals,Mango (3),Armada (2),Mango
+11,2014-06-29,CEO 2014,Grand Finals Set 1,Mango (0),Armada (3),Armada
+12,2014-06-29,CEO 2014,Grand Finals Set 2,Mango (1),Armada (3),Armada
+13,2014-06-29,CEO 2014,Winner's Finals,Mango (3),Armada (1),Mango
+14,2014-07-06,Kings of Cali 4,Grand Finals Set 1,Mango (0),Armada (3),Armada
+15,2014-07-06,Kings of Cali 4,Grand Finals Set 2,Mango (3),Armada (1),Mango
+16,2014-07-06,Kings of Cali 4,Winner's Finals,Mango (3),Armada (1),Mango
+17,2014-09-27,Shape V,Grand Finals Set 1,Mango (0),Armada (3),Armada
+18,2014-09-27,Shape V,Winner's Finals,Mango (1),Armada (3),Armada
+19,2014-10-05,The Big House 4,Loser's Semis,Mango (3),Armada (1),Mango
+20,2015-01-11,BEAST 5,Loser's Finals,Mango (0),Armada (3),Armada
+21,2015-02-01,Apex 2015,Loser's Semis,Mango (0),Armada (3),Armada
+22,2015-04-12,I'm Not Yelling,Winner's Finals,Mango (3),Armada (1),Mango
+23,2015-04-12,I'm Not Yelling,Grand Finals Set 1,Mango (1),Armada (3),Armada
+24,2015-04-12,I'm Not Yelling,Grand Finals Set 2,Mango (1),Armada (3),Armada
+25,2015-06-28,CEO 2015,Loser's Finals,Mango (1),Armada (3),Armada
+26,2015-07-11,WTFox,Loser's Finals,Armada (2),Mango (3),Mango
+27,2015-07-11,WTFox,Winner's Semis,Mango (1),Armada (3),Armada
+28,2015-11-05,Smash Summit,Grand Finals Set 1,Armada (3),Mango (2),Armada
+29,2016-01-17,Genesis 3,Grand Finals Set 2,Armada (3),Mango (1),Armada
+30,2016-01-17,Genesis 3,Grand Finals Set 1,Armada (1),Mango (3),Mango
+31,2016-03-19,Battle of the Five Gods,Loser's Finals,Armada (2),Mango (3),Mango
+32,2016-04-24,Smash Summit 2,Loser's Semis,Mango (0),Armada (3),Armada
+33,2016-05-22,Get On My Level 2016,Loser's Quarters,Armada (1),Mango (3),Mango
+34,2016-07-03,WTFox 2,Winner's Finals,Mango (3),Armada (1),Mango
+35,2016-07-03,WTFox 2,Grand Finals Set 1,Mango (3),Armada (0),Mango
+36,2016-10-09,The Big House 6,Grand Finals Set 2,Mango (3),Armada (2),Mango
+37,2016-10-09,The Big House 6,Grand Finals Set 1,Armada (3),Mango (1),Armada
+38,2016-10-09,The Big House 6,Winner's Semis,Armada (2),Mango (3),Mango
+39,2017-01-22,Genesis 4,Winner's Semis,Mango (1),Armada (3),Armada
+40,2017-01-22,Genesis 4,Grand Finals Set 1,Armada (3),Mango (0),Armada
+41,2017-05-15,Royal Flush,Grand Finals Set 2,Mango (3),Armada (2),Mango

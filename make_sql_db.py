@@ -1,5 +1,4 @@
 import sqlite3
-import pickle
 
 
 def create_tables(conn, c):
@@ -8,12 +7,29 @@ def create_tables(conn, c):
 		tag TEXT,
 		rank INTEGER)''')
 
-	c.execute('''CREATE TABLE games (
-		p1id INTEGER,
-		p2id INTEGER,
-		p1char TEXT,
-		p2char TEXT,
-		winner INTEGER)''')
+	"""this is the schema I would want to use if I had all the data"""
+	# # in sets and games, winner is pid of winning player
+	# c.execute('''CREATE TABLE sets (
+	# 	set_id INTEGER PRIMARY KEY NOT NULL,
+	# 	sdate DATE,
+	# 	tourney TEXT,
+	# 	set_name TEXT,
+	# 	p1 INTEGER,
+	# 	p2 INTEGER,
+	# 	winner INTEGER)''')
+
+	# c.execute('''CREATE TABLE games (
+	# 	set_id INTEGER,
+	# 	game_num INTEGER,
+	# 	stage TEXT,
+	# 	p1char TEXT,
+	# 	p2char TEXT,
+	# 	winner INTEGER,
+	# 	stock_diff TEXT,
+	# 	FOREIGN KEY (set_id) REFERENCES sets(set_id))''')
+
+	"""alternative schema just for games data"""
+
 
 	conn.commit()
 

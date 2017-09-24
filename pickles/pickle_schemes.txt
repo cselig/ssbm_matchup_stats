@@ -1,6 +1,12 @@
 player_dict.p
 	{id (string) : tag (string)}
 
+id_to_tag.p
+	{id (int) : tag (string)}
+
+tag_to_id.p
+	{tag (string) : id (int)}
+
 rank_to_tag.p
 	{rank (int) : tag (string)}
 
@@ -12,3 +18,6 @@ matchup_stats.p
 	wins is char1 over char2
 	(char1, char2) and (char2, char1) are both valid keys
 	No dittos, ie (char1, char1) not valid key
+
+character_list.p
+    set of all characters with sets in top 100 in 2016

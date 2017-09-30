@@ -3,7 +3,7 @@
 import pickle
 from collections import defaultdict
 from pprint import pprint
-from  statsmodels.stats.proportion import proportions_ztest
+# from  statsmodels.stats.proportion import proportions_ztest
 
 MATCHUP_STATS = pickle.load(open('pickles/matchup_stats.p', 'rb'))
 CHARACTERS = pickle.load(open('pickles/character_list.p', 'rb'))
@@ -15,6 +15,9 @@ def compute_character_matchup(char1, char2):
 	losses = MATCHUP_STATS[char2, char1]
 	total = wins + losses
 
+	if wins + losses == 0:
+		return 'No recorded games between ' + char1 + ' and ' + char2
+
 	if wins > losses:
 		percentage = wins / (losses + wins) * 100
 		winning_char = char1
@@ -24,10 +27,10 @@ def compute_character_matchup(char1, char2):
 		winning_char = char2
 		losing_char = char1
 
-	test_is_significant(wins, total)
+	# test_is_significant(wins, total)
 
 	percentage_str = '{0:.2f}'.format(percentage)
-	print(winning_char + ' has won ' + percentage_str + '% of ' + str(total) + ' ' + winning_char + ' vs ' + losing_char + ' games in 2016')
+	return winning_char + ' has won ' + percentage_str + '% of ' + str(total) + ' ' + winning_char + ' vs ' + losing_char + ' games in 2016'
 
 
 # For this hypothesis test, we are using a two-tailed difference of proportions test.
@@ -57,17 +60,30 @@ def compute_percentage_win_list():
 	pprint([(k, percents[k]) for k in sorted(percents, key=lambda x: percents[x], reverse=True)])
 
 
-def test_is_significant(wins, total):
-	stat, pval = is_significant(wins, total)
-	print(stat)
-	print(pval)
+# def test_is_significant(wins, total):
+# 	stat, pval = is_significant(wins, total)
+# 	print(stat)
+# 	print(pval)
+
+
+def prompt_single_char_matchup():
+	char1 = input('Enter first character: ')
+	char2 = input('Enter second character: ')
+	print(compute_character_matchup(char1, char2))
+
+
+def prompt_matchup_spread():
+	char1 = input('Enter character: ')
+	for char2 in CHARACTERS:
+		if char1 != char2:
+			print(compute_character_matchup(char1, char2))
 
 
 if __name__ == '__main__':
-	print()
-	char1 = input('Enter first character: ')
-	char2 = input('Enter second character: ')
-	print()
-	compute_character_matchup(char1, char2)
-	print()
-	# compute_percentage_win_list()
+	print('What do you want to get stats for?')
+	print('\tSingle character matchup (enter 1)')
+	print("\tCharacter's matchup spread (enter 2)")
+	if input() == '1':
+		prompt_single_char_matchup()
+	else:
+		prompt_matchup_spread()

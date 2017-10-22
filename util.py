@@ -16,7 +16,7 @@ def compute_character_matchup(char1, char2):
 	total = wins + losses
 
 	if wins + losses == 0:
-		return 'No recorded games between ' + char1 + ' and ' + char2
+		return # 'No recorded games between ' + char1 + ' and ' + char2
 
 	if wins > losses:
 		percentage = wins / (losses + wins) * 100
@@ -76,7 +76,9 @@ def prompt_matchup_spread():
 	char1 = input('Enter character: ')
 	for char2 in CHARACTERS:
 		if char1 != char2:
-			print(compute_character_matchup(char1, char2))
+			result = compute_character_matchup(char1, char2)
+			if result:
+				print(result)
 
 
 if __name__ == '__main__':

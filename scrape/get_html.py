@@ -34,7 +34,7 @@ def parse_html(driver, set_id, sets_out, games_out, p1id):
 			button_list[i].click()
 			time.sleep(0.2)
 			set_id += 1
-			print(set_id)
+			print('\t' + str(set_id))
 			table_head = driver.find_elements_by_xpath('//thead')[4]
 		set_info_list = []
 
@@ -66,12 +66,13 @@ def parse_html(driver, set_id, sets_out, games_out, p1id):
 
 if __name__ == '__main__':
 	# use pickles/matchups_small.p for testing
+	file_num = 1
 	matchups = pickle.load(open('../pickles/matchups.p', 'rb'))
 	driver = webdriver.Firefox()
 	driver.get(URL)
 	set_id = 0
-	sets_out = open('sets.csv', 'w')
-	games_out = open('games.csv', 'w')
+	sets_out = open('sets' + str(file_num) + '.csv', 'w')
+	games_out = open('games' + str(file_num) + '.csv' , 'w')
 	sets_out.write('set_id,date,tourney,set,p1,p2,winner\n')
 	games_out.write('set_id,game,stage,p1char,p2char,winner,stock_diff\n')
 
@@ -81,14 +82,16 @@ if __name__ == '__main__':
 			driver.close()
 			driver = webdriver.Firefox()
 			driver.get(URL)
-		get_base_html(str(p1id), str(p2id), driver)
-		# with open('test.html', 'w') as f:
-		# 	f.write(source)
-		set_id = parse_html(driver, set_id, sets_out, games_out, p1id)
-		# with open('parse_test.html', 'w') as f:
-		# 	f.write(str(source))
-		# html_file_name = 'html_data/' + p1id + 'vs' + p2id + '.html'
-		# with open(html_file_name, 'w') as f:
-		# 	f.write(str(tourney_history))
+		try: 
+			get_base_html(str(p1id), str(p2id), driver)
+			set_id = parse_html(driver, set_id, sets_out, games_out, p1id)
+		except:
+			print('exception raised')
+			print('restarting')
+			file_num += 1
+			sets_out = open('sets' + str(file_num) + '.csv', 'w')
+			games_out = open('games' + str(file_num) + '.csv', 'w')
+			i -= 1
+
 		print('%s/%s complete' % (i, len(matchups)))
 	print('Success')

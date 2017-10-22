@@ -1,3 +1,7 @@
 __pycache__
 geckodriver.log
 test/
+scrape/__pycache__/
+scrape/html_data/
+scrape/character_use_html_data/
+scrape/geckodriver.log

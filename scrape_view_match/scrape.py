@@ -21,7 +21,7 @@ def create_tables(conn, c):
         game INTEGER,
         stage TEXT,
         p1_char TEXT,
-        p2_chat TEXT,
+        p2_char TEXT,
         winner TEXT,
         stock_diff INTEGER,
         FOREIGN KEY (setid) REFERENCES sets(setid))''')
@@ -81,15 +81,14 @@ def write_out(match, games, c):
 
 
 if __name__ == '__main__':
-    conn = sqlite3.connect('ssbm.db')
+    conn = sqlite3.connect('../db/ssbm.db')
     c = conn.cursor()
     create_tables(conn, c)
 
-    for setid in range(0, 0): # 2227 is lowest null set
+    for setid in range(1, 2227): # 2227 is lowest null set
         r = get_html(setid)
         if 'Error Occurred While Processing Request' not in r.text:
             match, games = parse_html(r.text, setid)
             write_out(match, games, c)
     conn.commit()
-
-    test_queries(conn, c)
+    conn.close()
